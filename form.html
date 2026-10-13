@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulare vom Putz</title>
+</head>
+<body>
+    
+    <form action="mailto:PUT220100@spengergasse.at" method="post" enctype="text/plain">
+
+        Was ist dein Nachname: <input type="text" name="nachname"><br>
+        <select name="geschlecht">
+            <option value="maenlich">Männlich</option>
+            <option value="weiblich">Weiblich</option>
+            <option value="divers">Divers</option>
+            <option value="keine_angabe" selected>Keine Angabe</option>
+        </select>
+        <br><br>
+        <p>Was ist dein Betriebssystem</p>
+        <input type="radio" name="OS1" value="l">Linux
+        <input type="radio" name="OS1" value="w">Windows
+        <input type="radio" name="OS1" value="m">MacOS
+        <input type="radio" name="OS1" value="a">Anderes
+        <br><br>
+        <p>Mit Welchen Betriebsystemen hast du Erfahrung?</p>
+        <input type="checkbox" name="OS2" value="linux">Linux
+        <input type="checkbox" name="OS2" value="windows">Windows
+        <input type="checkbox" name="OS2" value="macos">MacOS
+        <input type="checkbox" name="OS2" value="anderes">Anderes
+        <br><br>
+
+        <textarea name="info" 
+placeholder="Wollen Sie uns noch was mitteilen"> 
+</textarea>
+<br><br>
+<p>Ihre Lieblingsfarbe:</p>
+<input type="color">
+
+<input type="submit" 
+value="Formular abschicken">
+
+    </form>
+
+</body>
+</html>
